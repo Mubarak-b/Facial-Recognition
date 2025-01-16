@@ -6,9 +6,7 @@ import time
 from twilio.rest import Client
 
 # Twilio configuration (Update with your actual credentials)
-account_sid = 'ACafd8209553b32cfe84d5a168951a30d8'
-auth_token = 'a8efc897981f82ca3ae7b81122a47820'
-twilio_number = '+12674818456'
+
 
 # Set to keep track of alerted phone numbers
 alerted_phone_numbers = set()
